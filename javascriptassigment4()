@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Assigment4(1)</title>
+    <style>
+        p{
+            font-size: 2em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgb(98, 239, 152);
+        }
+
+        div{
+            padding: 110px;
+            background:rgb(18, 19, 16);
+        }
+
+        #myDiv{
+            color:rgb(166, 246, 167) ;
+            font-size:2em;
+            cursor: pointer;
+        }
+
+        strong{
+            color: rgb(181, 72, 72);
+        }
+    </style>
+  </head>
+  <body>
+    <script>
+      function myFunction(event) {
+                document.getElementById("myDiv").innerHTML = document.getElementById
+                ("myDiv").innerHTML + "\"Hello hi javascript\",        " ;
+            }
+        </script>
+    </script>
+
+    <p>
+      " In this example, the div will get a new<em>" hello hi javascript
+        "</em>  when
+      mouse over on box: "
+    </p>
+
+    <div onmouseover="myFunction()" id="myDiv"></div>
+  </body>
+</html>
