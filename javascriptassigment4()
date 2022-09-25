@@ -15,8 +15,8 @@
         }
 
         div{
-            padding: 110px;
-            background:rgb(18, 19, 16);
+            padding: 50px;
+            background:yellow(18, 19, 16);
         }
 
         #myDiv{
